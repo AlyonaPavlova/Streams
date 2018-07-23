@@ -1,0 +1,35 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mustache data.json template.html > build.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyonaPavlova/Streams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlyonaPavlova/Events/issues"
+  },
+  "homepage": "https://github.com/AlyonaPavlova/Events#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "mustache": "^2.3.0",
+    "nodemon": "^1.17.5",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "chai": "^4.1.2",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "mocha": "^5.2.0",
+    "promise": "^8.0.1",
+    "stream": "0.0.2"
+  }
+}
